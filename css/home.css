@@ -152,7 +152,6 @@
     position: absolute;
     width: 100%;
     height: 40rem;
-    bottom: -3rem;
     z-index: 3;
     background-position: bottom right;
     pointer-events: none;
