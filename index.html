@@ -3,14 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Text Adventure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <title>The orange man's labyrinth</title>
   </head>
   <body>
+    <header>
+      <nav class="nav">
+        <a class="nav__item" href="index.html">Home</a>
+        <a class="nav__item" href="game.html">Play Game</a>
+        <a class="nav__item" href="tutorial.html">Tutorial</a>
+      </nav>
+    </header>
     <main>
-      <p id="text"></p>
-      <div id="options"></div>
-    </main>
+      <section class="desktop__only">
+        <h1 class="main__title">The orange man's labyrinth</h1>
+        <img class="main__img" src="src/assets/img_home.png" alt="The White House with a labyrinth" />
+        <a class="main__link" href="html/game.html"><span class="link__text">Start game</span></a>
+        <div class="main__img-detail"></div>
+      </section>
 
-    <script src="src/scripts/game.js"></script>
+      <section class="mobile__only">
+        <h1 class="mobile__title">The orange man's labyrinth</h1>
+        <img class="mobile__img" src="src/assets/wall.png" alt="The White House with a labyrinth" />
+
+        <section class="btns__placement">
+          <!-- <a class="main__link" href="index.html"
+            ><span class="link__text">Home</span></a
+          > -->
+          <a class="main__link" href="game.html"><span class="link__text">Start game</span></a>
+          <a class="main__link" href="tutorial.html"><span class="link__text">Tutorial</span></a>
+        </section>
+
+        <div class="main__img-detail"></div>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>

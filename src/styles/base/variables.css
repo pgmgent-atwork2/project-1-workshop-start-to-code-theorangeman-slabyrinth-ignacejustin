@@ -1,0 +1,10 @@
+:root {
+  --font-primary: "Instrument Serif", Serif;
+  --font-secondary: "Instrument Sans", Serif;
+
+  --color-primary: white;
+  --color-secondary: black;
+  --color-detail: red;
+  --color-nav: #0d112b;
+  --color-nav-darker: #060812;
+}
