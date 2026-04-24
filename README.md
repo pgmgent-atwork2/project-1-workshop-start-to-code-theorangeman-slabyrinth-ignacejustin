@@ -1,11 +1,12 @@
-# The Orange Man's Labyrinth
+# De schatkist
 
-## Introductie
+Welkom in de schatkist! Hier vind je alle afbeeldingen die je nodig hebt om je labyrint te maken.
 
-In deze mini-game is het de bedoeling dat je navigeert door een labyrinth met een gevaarlijk monster.
+### Hoe krijg je deze op je computer?
 
-## Installatie
+1. **De makkelijkste manier:** Klik op het bestand **"schatkist.zip"** hierboven en druk daarne op de download knop.
+2. **De snelle manier:** Klik op de groene knop **[ <>Code ]** rechtsboven en kies **Download ZIP**.
 
-## Figma
+### Wat moet je daarna doen?
 
-https://www.figma.com/board/B59RY29CoY7Oe6P8vrDgZI/Untitled?node-id=0-1&p=f&t=lzOXAOp0nQAF98EK-0
+Pak het ZIP-bestand uit en sleep de map met afbeeldingen naar je eigen project-map (die je "mijn_labyrint" hebt genoemd).
