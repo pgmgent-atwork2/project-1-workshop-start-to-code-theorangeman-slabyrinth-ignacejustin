@@ -1,0 +1,6 @@
+@import "base/reset.css";
+@import "base/variables.css";
+
+@import "components/home.css";
+@import "components/game.css";
+@import "components/tutorial.css";

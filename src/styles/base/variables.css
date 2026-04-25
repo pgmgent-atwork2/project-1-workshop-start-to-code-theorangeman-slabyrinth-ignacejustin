@@ -1,0 +1,20 @@
+:root {
+  --font-primary: "Instrument Serif", Serif;
+  --font-secondary: "Instrument Sans", Serif;
+
+  --color-primary: white;
+  --color-secondary: black;
+  --color-detail: red;
+  --color-nav: #0d112b;
+  --color-nav-darker: #050718;
+  --color-neutral: rgb(245, 245, 245);
+  --color-body-bg: #ebecf9;
+  --color-border: rgb(213, 213, 213);
+
+  --color-highlight: blue;
+  --color-highlight-variation1: rgb(255, 94, 0);
+  --color-highlight-variation2: rgb(9, 163, 50);
+  --color-highlight-variation3: rgb(106, 0, 255);
+
+  --shadow-border: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,238 @@
+.body__tut {
+  background-color: var(--color-body-bg);
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+}
+
+.main__tut {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.intro__title {
+  font-family: var(--font-secondary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--color-secondary);
+}
+
+.intro__subtitle {
+  font-family: var(--font-secondary);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-secondary);
+}
+
+.intro__text {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.highlight,
+.tut__highlight,
+.toc__highlight {
+  background-color: var(--color-primary);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.highlight {
+  color: var(--color-highlight-variation1);
+}
+
+.toc {
+  background-color: var(--color-neutral);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 4rem;
+  box-shadow: var(--shadow-border);
+}
+
+.toc__title {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.toc__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc__item {
+  margin-bottom: 0.8rem;
+}
+
+.toc__link {
+  text-decoration: none;
+  color: var(--color-highlight);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.toc__link:hover {
+  color: var(--color-detail);
+}
+
+.toc__highlight {
+  color: var(--color-highlight-variation3);
+}
+
+.tut__container {
+  background-color: var(--color-neutral);
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  box-shadow: var(--shadow-border);
+}
+
+.tut__title {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: var(--color-secondary);
+}
+
+.tut__subtitle {
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  color: var(--color-secondary);
+}
+
+.tut__subsubtitle {
+  margin-bottom: 0.5rem;
+}
+
+.tut__content {
+  border-bottom: 2px solid var(--color-border);
+  margin-bottom: 1rem;
+}
+
+.tut__text {
+  margin-bottom: 1.25rem;
+}
+
+.tut__list {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.tut__highlight {
+  color: var(--color-highlight-variation2);
+}
+
+.tut__img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+  display: block;
+}
+
+.tut__img-maps {
+  width: 40%;
+}
+
+.code-block {
+  background-color: var(--color-nav-darker);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.code-block__header {
+  background-color: var(--color-nav);
+  padding: 0.7rem 1.2rem;
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  font-family: monospace;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code-block__content {
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+.code-block__snippet {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--color-primary);
+  font-size: 1rem;
+  white-space: pre-wrap;
+}
+
+.copy__btn {
+  background: var(--color-primary);
+  color: var(--color-nav);
+  border: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-secondary);
+  font-size: 0.7rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.copy__btn:hover {
+  background-color: var(--color-body-bg);
+  transform: translate(0.5px);
+}
+
+.tut__img-layout {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.tut__img-layout .tut__img {
+  flex: 1;
+  width: 100%;
+  margin: 0;
+  object-fit: contain;
+  border: none;
+}
+
+.mobile__nav {
+  display: none;
+  background-color: var(--color-nav);
+  padding: 1rem;
+  text-align: center;
+}
+
+.mobile__nav-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mobile__link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .mobile__nav {
+    display: block;
+  }
+}
