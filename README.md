@@ -10,8 +10,6 @@ Toen hij zijn bond met hen verbrak, sloeg het noodlot toe. Als straf werd er een
 Jij bent de uitverkorene van de goden, een strijder gestuurd om een einde te maken aan dit monster.
 Na een lange reis over zee bereik je eindelijk het eiland waar het labyrint zich bevindt.
 
-## Installatie
-
 ## Figma
 
 https://www.figma.com/board/B59RY29CoY7Oe6P8vrDgZI/Untitled?node-id=0-1&p=f&t=lzOXAOp0nQAF98EK-0
