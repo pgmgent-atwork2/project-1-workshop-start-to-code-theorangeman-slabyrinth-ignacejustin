@@ -107,7 +107,7 @@
   display: none;
 }
 
-@media (max-width: 402px) {
+@media (max-width: 768px) {
   .mobile__only {
     display: block;
     position: relative;
