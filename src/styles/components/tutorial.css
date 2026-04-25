@@ -66,6 +66,7 @@
 
 .toc__list {
   list-style: none;
+  padding-left: 0;
 }
 
 .toc__item {
@@ -109,6 +110,10 @@
   font-weight: 500;
   margin: 0.5rem 0;
   color: var(--color-secondary);
+}
+
+.tut__subsubtitle {
+  margin-bottom: 0.5rem;
 }
 
 .tut__content {
@@ -201,4 +206,33 @@
   margin: 0;
   object-fit: contain;
   border: none;
+}
+
+.mobile__nav {
+  display: none;
+  background-color: var(--color-nav);
+  padding: 1rem;
+  text-align: center;
+}
+
+.mobile__nav-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mobile__link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .mobile__nav {
+    display: block;
+  }
 }
