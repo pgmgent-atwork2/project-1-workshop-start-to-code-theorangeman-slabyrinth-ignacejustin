@@ -83,6 +83,10 @@
   color: var(--color-detail);
 }
 
+.toc__highlight {
+  color: var(--color-highlight-variation3);
+}
+
 .tut__container {
   background-color: var(--color-neutral);
   padding: 2.5rem;
@@ -116,6 +120,10 @@
   padding-left: 1.5rem;
 }
 
+.tut__highlight {
+  color: var(--color-highlight-variation2);
+}
+
 .tut__img {
   width: 100%;
   border-radius: 8px;
@@ -124,9 +132,54 @@
   display: block;
 }
 
+.tut__img-maps {
+  width: 40%;
+}
+
 .code-block {
   background-color: var(--color-nav-darker);
   border-radius: 8px;
   overflow: hidden;
   margin: 2rem 0;
+}
+
+.code-block__header {
+  background-color: var(--color-nav);
+  padding: 0.7rem 1.2rem;
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  font-family: monospace;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code-block__content {
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+.code-block__snippet {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--color-primary);
+  font-size: 1rem;
+  white-space: pre-wrap;
+}
+
+.copy__btn {
+  background: var(--color-primary);
+  color: var(--color-nav);
+  border: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-secondary);
+  font-size: 0.7rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.copy__btn:hover {
+  background-color: var(--color-body-bg);
+  transform: translate(0.5px);
 }
