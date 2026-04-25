@@ -20,56 +20,73 @@
         <a class="nav__item" href="../html/tutorial.html">Tutorial</a>
       </nav>
     </header>
-    <main>
-      <section class="intro__text">
-        <h1>The Orange Man's Labyrinth Tutorial</h1>
-        <h2>Zit er een Game Developer in jou? 👾</h2>
-        <p>
+    <main class="main__tutorial">
+      <section class="intro">
+        <h1 class="intro__title">The Orange Man's Labyrinth Tutorial</h1>
+        <h2 class="intro__subtitle">Zit er een Game Developer in jou? 👾</h2>
+        <p class="intro__text">
           Computerprogramma's lijken soms magie, maar eigenlijk is het gewoon
-          een geheime taal: <b>Code</b>. Vandaag leer jij de taal spreken! In
-          deze tutorial bouwen we stap voor stap een echte Text Adventure
-          RPG.<br />We gaan aan de slag met <b>HTML</b> (het skelet),
-          <b>CSS</b> (de kleren) en <b>JavaScript</b> (de hersenen). Aan het
-          einde heb jij een spel dat je aan al je vrienden kunt laten zien.
-          Ready? Set... Code!
+          een geheime taal: <b class="highlight">Code</b>. Vandaag leer jij de
+          taal spreken! In deze tutorial bouwen we stap voor stap een echte Text
+          Adventure RPG.<br />We gaan aan de slag met
+          <b class="highlight">HTML</b> (het skelet),
+          <b class="highlight">CSS</b> (de kleren) en
+          <b class="highlight">JavaScript</b> (de hersenen). Aan het einde heb
+          jij een spel dat je aan al je vrienden kunt laten zien. Ready? Set...
+          Code!
         </p>
       </section>
 
-      <section>
-        <h2>Inhoudstafel</h2>
+      <section class="toc">
+        <h2 class="toc__title">Inhoudstafel</h2>
 
-        <div>
-          <ul>
-            <li><a href="#guide">De survivalgids voor code-strijders 🛡️</a></li>
-            <li>
-              <a href="#step1"><b>Stap 1:</b> Het skelet bouwen 🩻</a>
+        <div class="toc__container">
+          <ul class="toc__list">
+            <li class="toc__item">
+              <a class="toc__link" href="#guide"
+                >De survivalgids voor code-strijders 🛡️</a
+              >
             </li>
-            <li>
-              <a href="#step2"><b>Stap 2:</b> De kleren en het uiterlijk 👕</a>
+            <li class="toc__item">
+              <a class="toc__link" href="#step1"
+                ><b class="toc__highlight">Stap 1:</b> Het skelet bouwen 🩻</a
+              >
             </li>
-            <li>
-              <a href="#step3"><b>Stap 3:</b> De hersenen van je game 🧠</a>
+            <li class="toc__item">
+              <a class="toc__link" href="#step2"
+                ><b class="toc__highlight">Stap 2:</b> De kleren en het
+                uiterlijk 👕</a
+              >
+            </li>
+            <li class="toc__item">
+              <a class="toc__link" href="#step3"
+                ><b class="toc__highlight">Stap 3:</b> De hersenen van je game
+                🧠</a
+              >
             </li>
           </ul>
         </div>
       </section>
 
-      <section id="guide">
-        <div>
-          <h2>De survivalgids voor code-strijders</h2>
-          <h3>Wat hebben we allemaal nodig?</h3>
-          <p>
+      <section class="tut__container" id="guide">
+        <div class="tut__content">
+          <h2 class="tut__title">De survivalgids voor code-strijders</h2>
+          <h3 class="tut__subtitle">Wat hebben we allemaal nodig?</h3>
+          <p class="tut__text">
             Voordat we een skelet gaan maken en hersenen gaan trainen, hebben we
             een plek nodig om te werken. Je hebt maar twee dingen nodig.
           </p>
-          <ul>
-            <li>
-              <b>Een Browser:</b> (zoals Google Chrome of Firefox) Dit is het
-              venster waar je straks jouw labyrint gaat bekijken en spelen.
+          <ul class="tut__list">
+            <li class="tut__item">
+              <b class="tut__highlight">Een Browser:</b> (zoals Google Chrome of
+              Firefox) Dit is het venster waar je straks jouw labyrint gaat
+              bekijken en spelen.
             </li>
-            <li>
-              <b>Visual Studio Code:</b> Dit is jouw belangrijkste wapen. Het is
-              een speciale tekstverwerker die jouw code begrijpt. <br /><a
+            <li class="tut__item">
+              <b class="tut__highlight">Visual Studio Code:</b> Dit is jouw
+              belangrijkste wapen. Het is een speciale tekstverwerker die jouw
+              code begrijpt. <br /><a
+                class="tut__link"
                 href="https://code.visualstudio.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -79,24 +96,26 @@
           </ul>
         </div>
 
-        <div>
-          <p>
+        <div class="tut__content">
+          <p class="tut__text">
             Nu we deze twee stappen hebben voltooid, moeten we enkel nog een
             mapje aanmaken. Dit is de schatkist van je game. Hier bewaren we
             straks al je code en afbeeldingen zodat de computer alles makkelijk
             kan terugvinden. Geef deze map de naam "mijn_labyrint".
           </p>
           <img
+            class="tut__img"
             src="../src/assets/screenshot_map.png"
             alt="Screenshot van map in mijn bestanden."
           />
         </div>
 
-        <div>
-          <p>
+        <div class="tut__content">
+          <p class="tut__text">
             Als laatste hebben we natuurlijk ook de afbeeldingen nodig voor onze
             game! Zonder monsters is het labyrint maar een saaie boel. Download
             de afbeeldingen en zet ze in de map die je net hebt aangemaakt.<br /><a
+              class="tut__link"
               href="https://github.com/pgmgent-atwork2/project-1-workshop-start-to-code-theorangeman-slabyrinth-ignacejustin/tree/game-assets"
               target="_blank"
               rel="noopener noreferrer"
@@ -104,25 +123,31 @@
             >.<br />
           </p>
           <img
+            class="tut__img"
             src="../src/assets/screenshot_github.png"
             alt="Screenshot of github instructions for downloading ZIP-file."
           />
         </div>
 
-        <div>
-          <p>Nu we alles hebben gedownload kunnen we eindelijk starten.</p>
-          <p>
-            Open VS Code op je computer en klik op <b>"File -> open folder"</b>.
-            Kies daarna de folder (mijn_labyrint) de we hebben aangemaakt.
+        <div class="tut__content">
+          <h3 class="tut__subtitle">
+            Nu we alles hebben gedownload kunnen we eindelijk starten.
+          </h3>
+          <p class="tut__text">
+            Open VS Code op je computer en klik op
+            <b class="tut__highlight">"File -> open folder"</b>. Kies daarna de
+            folder (mijn_labyrint) de we hebben aangemaakt.
           </p>
           <img
+            class="tut__img"
             src="../src/assets/screenshot_vscode.png"
             alt="Screenshot van VS Code interface."
           />
         </div>
-        <div>
-          <h3>Mappenstructuur</h3>
-          <p>
+
+        <div class="tut__content">
+          <h2 class="tut__title">Mappenstructuur</h2>
+          <p class="tut__text">
             Maak nu deze mappen en bestanden aan en dan is het voorbereidend
             werk klaar! Let goed op dat de namen en de plaats van de mappen
             precies kloppen. Als er één letter anders is, kan de computer het
@@ -130,203 +155,270 @@
             spaties in de namen van de mappen. Dat vindt code niet zo leuk!
           </p>
           <img
+            class="tut__img"
             src="../src/assets/screenshot_mapstructuur.png"
             alt="Screenshot van mappenstructuur."
           />
         </div>
       </section>
 
-      <section id="step1">
-        <div>
-          <h2>Stap 1: Het skelet bouwen (HTML)</h2>
-          <p>
+      <section class="tut__container" id="step1">
+        <div class="tut__content">
+          <h2 class="tut__title">Stap 1: Het skelet bouwen (HTML)</h2>
+          <p class="tut__text">
             Stel je voor dat je een mens tekent. Je begint niet met de kleur van
             de ogen of een cool shirt, maar met het skelet. De botten zorgen
             ervoor dat alles op de juiste plek blijft zitten. In de codewereld
             is
-            <b>HTML</b> dat skelet. Het vertelt de computer precies wat er op de
-            pagina moet komen. Zonder <b>HTML</b> weet de browser niet wat hij
-            moet laten zien. Het is de basis van alles wat je op het internet
-            ziet!
+            <b class="tut__highlight">HTML</b> dat skelet. Het vertelt de
+            computer precies wat er op de pagina moet komen. Zonder
+            <b class="tut__highlight">HTML</b> weet de browser niet wat hij moet
+            laten zien. Het is de basis van alles wat je op het internet ziet!
           </p>
         </div>
 
-        <div>
-          <h3>Tijd om te bouwen!</h3>
+        <div class="tut__content">
+          <h3 class="tut__subtitle">Tijd om te bouwen!</h3>
 
-          <div>
-            <p>
+          <div class="tut__content">
+            <p class="tut__text">
               Kopieer de volledige code hieronder en plak deze in het bestand
-              <b>index.html</b> die je zonet hebt aangemaakt.
+              <b class="tut__highlight">index.html</b> die je zonet hebt
+              aangemaakt.
             </p>
 
-            <div class="code-container">
-              <p>Hier komt code....</p>
+            <div class="code-block">
+              <div class="code-block__header">
+                <span class="code-block__name">index.html</span>
+              </div>
+              <div class="code-block__content">
+                <code class="code-block__snippet">Hier komt code...</code>
+              </div>
             </div>
           </div>
 
-          <div>
-            <p>
+          <div class="tut__content">
+            <p class="tut__text">
               Kopieer de volledige code hieronder en plak deze in het bestand
-              <b>game.html</b>.
+              <b class="tut__highlight">game.html</b>.
             </p>
 
-            <div class="code-container">
-              <p>Hier komt code....</p>
+            <div class="code-block">
+              <div class="code-block__header">
+                <span class="code-block__name">game.html</span>
+              </div>
+              <div class="code-block__content">
+                <code class="code-block__snippet">Hier komt code...</code>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="step2">
-        <div>
-          <h2>Stap 2: De kleren en het uiterlijk (CSS)</h2>
-          <p>
+      <section class="tut__container" id="step2">
+        <div class="tut__content">
+          <h2 class="tut__title">Stap 2: De kleren en het uiterlijk (CSS)</h2>
+          <p class="tut__text">
             Nu we ons skelet hebben, ziet het er nog een beetje kaal en
-            botachtig uit. Met <b>CSS</b> gaan we dat veranderen! Als je weet
-            dat HTML het skelet is, dan is <b>CSS</b> net als de kleren,
-            haarkleur en schoenen die je kiest.
+            botachtig uit. Met <b class="tut__highlight">CSS</b> gaan we dat
+            veranderen! Als je weet dat HTML het skelet is, dan is
+            <b class="tut__highlight">CSS</b> net als de kleren, haarkleur en
+            schoenen die je kiest.
           </p>
         </div>
 
-        <div>
+        <div class="tut__content">
           <h3>Het labyrint vorm geven!</h3>
 
-          <div>
-            <p>
-              Ga naar de map <b>src</b>, dan naar <b>styles</b> en open het
-              bestand <b>main.css</b>. Kopieer de code en plak ze erin.
+          <div class="tut__content">
+            <p class="tut__text">
+              Ga naar de map <b class="tut__highlight">src</b>, dan naar
+              <b class="tut__highlight">styles</b> en open het bestand
+              <b class="tut__highlight">main.css</b>. Kopieer de code en plak ze
+              erin.
             </p>
 
-            <div class="code-container">
-              <p>Hier komt code....</p>
+            <div class="code-block">
+              <div class="code-block__header">
+                <span class="code-block__name">main.css</span>
+              </div>
+              <div class="code-block__content">
+                <code class="code-block__snippet">Hier komt code...</code>
+              </div>
             </div>
           </div>
         </div>
 
-        <div>
-          <p>
-            Ga naar de map <b>src</b>, dan naar <b>styles</b> en dan naar
-            <b>base</b> en open het bestand <b>reset.css</b>. Kopieer de code en
-            plak ze erin.
+        <div class="tut__content">
+          <p class="tut__text">
+            Ga naar de map <b class="tut__highlight">src</b>, dan naar
+            <b class="tut__highlight">styles</b> en dan naar
+            <b class="tut__highlight">base</b> en open het bestand
+            <b class="tut__highlight">reset.css</b>. Kopieer de code en plak ze
+            erin.
           </p>
 
-          <div class="code-container">
-            <p>Hier komt code....</p>
+          <div class="code-block">
+            <div class="code-block__header">
+              <span class="code-block__name">reset.css</span>
+            </div>
+            <div class="code-block__content">
+              <code class="code-block__snippet">Hier komt code...</code>
+            </div>
           </div>
         </div>
 
-        <div>
-          <p>
-            Ga naar de map <b>src</b>, dan naar <b>styles</b> en dan naar
-            <b>base</b> en open het bestand <b>variables.css</b>. Kopieer de
-            code en plak ze erin.
+        <div class="tut__content">
+          <p class="tut__text">
+            Ga naar de map <b class="tut__highlight">src</b>, dan naar
+            <b class="tut__highlight">styles</b> en dan naar
+            <b class="tut__highlight">base</b> en open het bestand
+            <b>variables.css</b>. Kopieer de code en plak ze erin.
           </p>
 
-          <div class="code-container">
-            <p>Hier komt code....</p>
+          <div class="code-block">
+            <div class="code-block__header">
+              <span class="code-block__name">variables.css</span>
+            </div>
+            <div class="code-block__content">
+              <code class="code-block__snippet">Hier komt code...</code>
+            </div>
           </div>
         </div>
 
-        <div>
-          <p>
-            Ga naar de map <b>src</b>, dan naar <b>styles</b> en dan naar
-            <b>components</b> en open het bestand <b>game.css</b>. Kopieer de
-            code en plak ze erin.
+        <div class="tut__content">
+          <p class="tut__text">
+            Ga naar de map <b class="tut__highlight">src</b>, dan naar
+            <b class="tut__highlight">styles</b> en dan naar
+            <b class="tut__highlight">components</b> en open het bestand
+            <b class="tut__highlight">game.css</b>. Kopieer de code en plak ze
+            erin.
           </p>
 
-          <div class="code-container">
-            <p>Hier komt code....</p>
+          <div class="code-block">
+            <div class="code-block__header">
+              <span class="code-block__name">game.css</span>
+            </div>
+            <div class="code-block__content">
+              <code class="code-block__snippet">Hier komt code...</code>
+            </div>
           </div>
         </div>
 
-        <div>
-          <p>
-            Ga naar de map <b>src</b>, dan naar <b>styles</b> en dan naar
-            <b>components</b> en open het bestand <b>home.css</b>. Kopieer de
-            code en plak ze erin.
+        <div class="tut__content">
+          <p class="tut__text">
+            Ga naar de map <b class="tut__highlight">src</b>, dan naar
+            <b class="tut__highlight">styles</b> en dan naar
+            <b class="tut__highlight">components</b> en open het bestand
+            <b class="tut__highlight">home.css</b>. Kopieer de code en plak ze
+            erin.
           </p>
 
-          <div class="code-container">
-            <p>Hier komt code....</p>
+          <div class="code-block">
+            <div class="code-block__header">
+              <span class="code-block__name">home.css</span>
+            </div>
+            <div class="code-block__content">
+              <code class="code-block__snippet">Hier komt code...</code>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="step3">
-        <div>
-          <h2>Stap 3: De hersenen van je game (JavaScript)</h2>
-          <p>
+      <section class="tut__container" id="step3">
+        <div class="tut__content">
+          <h2 class="tut__title">
+            Stap 3: De hersenen van je game (JavaScript)
+          </h2>
+          <p class="tut__text">
             Nu hebben we een skelet met coole kleren, maar hij staat nog stil.
             Hij kan nog niet praten of lopen. Daar hebben we
-            <b>JavaScript</b> voor nodig! <b>JavaScript</b> zijn de hersenen van
-            je game. Het zorgt voor de actie: als de speler op een knop drukt,
-            dan beslissen de hersenen naar welke kamer je gaat.
+            <b class="tut__highlight">JavaScript</b> voor nodig!
+            <b class="tut__highlight">JavaScript</b> zijn de hersenen van je
+            game. Het zorgt voor de actie: als de speler op een knop drukt, dan
+            beslissen de hersenen naar welke kamer je gaat.
           </p>
         </div>
 
-        <div>
-          <h3>Selecteert de HTML-elementen waar we tekst en keuzes tonen.</h3>
-          <p>
+        <div class="tut__content">
+          <h3 class="tut__subtitle">Wat doet deze code nu?</h3>
+        </div>
+
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">
+            Selecteert de HTML-elementen waar we tekst en keuzes tonen.
+          </h4>
+          <p class="tut__text">
             We vertellen de computer eerst waar op het scherm de tekst en
             knoppen moeten komen.
           </p>
         </div>
 
-        <div>
-          <h3>Houdt alle scènes van het spel bij.</h3>
-          <p>
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">Houdt alle scènes van het spel bij.</h4>
+          <p class="tut__text">
             Hier schrijven we het verhaal. Elke scènes heeft een eigen tekst en
             keuzes die je naar de volgende plek sturen.
           </p>
-          <img src="" alt="">
+          <img class="tut__img" src="" alt="" />
         </div>
 
-        <div>
-          <h3>
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">
             Deze functie toont voor iedere scène de juiste tekst en bijhorende
             keuzes
-          </h3>
-          <img src="" alt="">
+          </h4>
+          <img class="tut__img" src="" alt="" />
         </div>
 
-        <div>
-          <h3>Toon de tekst van de huidige scène</h3>
-          <img src="" alt="">
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">Toon de tekst van de huidige scène</h4>
+          <img class="tut__img" src="" alt="" />
         </div>
 
-        <div>
-          <h3>Maak voor elke optie een knop</h3>
-          <img src="" alt="">
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">Maak voor elke optie een knop</h4>
+          <img class="tut__img" src="" alt="" />
         </div>
 
-        <div>
-          <h3>Plaats de knoppen in de HTML</h3>
-          <img src="" alt="">
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">Plaats de knoppen in de HTML</h4>
+          <img class="tut__img" src="" alt="" />
         </div>
 
-        <div>
-          <h3>Selecteert alle nieuw aangemaakte knoppen</h3>
-          <img src="" alt="">
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">
+            Selecteert alle nieuw aangemaakte knoppen
+          </h4>
+          <img class="tut__img" src="" alt="" />
         </div>
 
-        <div>
-          <h3>
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">
             Voegt klikgedrag toe aan de knoppen om de navigeren naar een andere
             scene
-          </h3>
-          <img src="" alt="">
+          </h4>
+          <img class="tut__img" src="" alt="" />
         </div>
 
-        <div>
-          <h3>Start het spel bij de eerste scene</h3>
-          <img src="" alt="">
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">Start het spel bij de eerste scene</h4>
+          <img class="tut__img" src="" alt="" />
         </div>
-      </section>
 
-        <div>
-          <h3>kopieer nu deze code en plak die in game.js</h3>
-          <div class="code-container"><p>Hier komt code....</p></div>
+        <div class="tut__content">
+          <h4 class="tut__subsubtitle">
+            kopieer nu deze code en plak die in game.js
+          </h4>
+
+          <div class="code-block">
+            <div class="code-block__header">
+              <span class="code-block__name">game.js</span>
+            </div>
+            <div class="code-block__content">
+              <code class="code-block__snippet">Hier komt code...</code>
+            </div>
+          </div>
         </div>
       </section>
     </main>
