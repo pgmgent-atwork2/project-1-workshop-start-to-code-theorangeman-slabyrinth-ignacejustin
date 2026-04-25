@@ -1,7 +1,7 @@
 .nav {
   padding: 1rem;
   background-color: var(--color-nav);
-  border-bottom: 2px var(--color-nav-darker);
+  box-shadow: var(--shadow-border);
 }
 
 .nav__item {
@@ -69,6 +69,7 @@
   background-repeat: no-repeat;
   height: 25rem;
   aspect-ratio: 1/1;
+  pointer-events: none;
 }
 
 .main__link {
