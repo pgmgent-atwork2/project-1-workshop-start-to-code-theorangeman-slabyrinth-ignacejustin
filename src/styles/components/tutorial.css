@@ -111,6 +111,11 @@
   color: var(--color-secondary);
 }
 
+.tut__content {
+  border-bottom: 2px solid var(--color-border);
+  margin-bottom: 1rem;
+}
+
 .tut__text {
   margin-bottom: 1.25rem;
 }

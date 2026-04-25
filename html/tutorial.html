@@ -69,7 +69,7 @@
       </section>
 
       <section class="tut__container" id="guide">
-        <div class="tut__content">
+        <div>
           <h2 class="tut__title">De survivalgids voor code-strijders</h2>
           <h3 class="tut__subtitle">Wat hebben we allemaal nodig?</h3>
           <p class="tut__text">
@@ -96,7 +96,7 @@
           </ul>
         </div>
 
-        <div class="tut__content">
+        <div>
           <p class="tut__text">
             Nu we deze twee stappen hebben voltooid, moeten we enkel nog een
             mapje aanmaken. Dit is de schatkist van je game. Hier bewaren we
@@ -110,7 +110,7 @@
           />
         </div>
 
-        <div class="tut__content">
+        <div>
           <p class="tut__text">
             Als laatste hebben we natuurlijk ook de afbeeldingen nodig voor onze
             game! Zonder monsters is het labyrint maar een saaie boel. Download
@@ -129,7 +129,7 @@
           />
         </div>
 
-        <div class="tut__content">
+        <div>
           <h3 class="tut__subtitle">
             Nu we alles hebben gedownload kunnen we eindelijk starten.
           </h3>
@@ -145,7 +145,7 @@
           />
         </div>
 
-        <div class="tut__content">
+        <div>
           <h2 class="tut__title">Mappenstructuur</h2>
           <p class="tut__text">
             Maak nu deze mappen en bestanden aan en dan is het voorbereidend
@@ -163,7 +163,7 @@
       </section>
 
       <section class="tut__container" id="step1">
-        <div class="tut__content">
+        <div>
           <h2 class="tut__title">Stap 1: Het skelet bouwen (HTML)</h2>
           <p class="tut__text">
             Stel je voor dat je een mens tekent. Je begint niet met de kleur van
@@ -177,10 +177,10 @@
           </p>
         </div>
 
-        <div class="tut__content">
+        <div>
           <h3 class="tut__subtitle">Tijd om te bouwen!</h3>
 
-          <div class="tut__content">
+          <div>
             <p class="tut__text">
               Kopieer de volledige code hieronder en plak deze in het bestand
               <b class="tut__highlight">index.html</b> die je zonet hebt
@@ -198,7 +198,7 @@
             </div>
           </div>
 
-          <div class="tut__content">
+          <div>
             <p class="tut__text">
               Kopieer de volledige code hieronder en plak deze in het bestand
               <b class="tut__highlight">game.html</b>.
@@ -218,7 +218,7 @@
       </section>
 
       <section class="tut__container" id="step2">
-        <div class="tut__content">
+        <div>
           <h2 class="tut__title">Stap 2: De kleren en het uiterlijk (CSS)</h2>
           <p class="tut__text">
             Nu we ons skelet hebben, ziet het er nog een beetje kaal en
@@ -229,10 +229,10 @@
           </p>
         </div>
 
-        <div class="tut__content">
+        <div>
           <h3>Het labyrint vorm geven!</h3>
 
-          <div class="tut__content">
+          <div>
             <p class="tut__text">
               Ga naar de map <b class="tut__highlight">src</b>, dan naar
               <b class="tut__highlight">styles</b> en open het bestand
@@ -252,7 +252,7 @@
           </div>
         </div>
 
-        <div class="tut__content">
+        <div>
           <p class="tut__text">
             Ga naar de map <b class="tut__highlight">src</b>, dan naar
             <b class="tut__highlight">styles</b> en dan naar
@@ -272,7 +272,7 @@
           </div>
         </div>
 
-        <div class="tut__content">
+        <div>
           <p class="tut__text">
             Ga naar de map <b class="tut__highlight">src</b>, dan naar
             <b class="tut__highlight">styles</b> en dan naar
@@ -291,7 +291,7 @@
           </div>
         </div>
 
-        <div class="tut__content">
+        <div>
           <p class="tut__text">
             Ga naar de map <b class="tut__highlight">src</b>, dan naar
             <b class="tut__highlight">styles</b> en dan naar
@@ -311,7 +311,7 @@
           </div>
         </div>
 
-        <div class="tut__content">
+        <div>
           <p class="tut__text">
             Ga naar de map <b class="tut__highlight">src</b>, dan naar
             <b class="tut__highlight">styles</b> en dan naar
@@ -333,7 +333,7 @@
       </section>
 
       <section class="tut__container" id="step3">
-        <div class="tut__content">
+        <div>
           <h2 class="tut__title">
             Stap 3: De hersenen van je game (JavaScript)
           </h2>
@@ -347,8 +347,8 @@
           </p>
         </div>
 
-        <div class="tut__content">
-          <h3 class="tut__subtitle">Wat doet deze code nu?</h3>
+        <div>
+          <h3 class="tut__subtitle"><b>Wat doet deze code nu?</b></h3>
         </div>
 
         <div class="tut__content">
@@ -357,8 +357,19 @@
           </h4>
           <p class="tut__text">
             We vertellen de computer eerst waar op het scherm de tekst en
-            knoppen moeten komen.
+            knoppen moeten komen. <b>#text</b> en <b>#options</b> zetten we in
+            onze HTML als id.
           </p>
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet1.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet1b.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
@@ -367,7 +378,11 @@
             Hier schrijven we het verhaal. Elke scènes heeft een eigen tekst en
             keuzes die je naar de volgende plek sturen.
           </p>
-          <img class="tut__img" src="" alt="" />
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet2.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
@@ -375,29 +390,70 @@
             Deze functie toont voor iedere scène de juiste tekst en bijhorende
             keuzes
           </h4>
-          <img class="tut__img" src="" alt="" />
+          <p class="tut__text">
+            Dit is de motor van ons spel. Elke keer als we naar een nieuwe plek
+            gaan zorgt deze functie ervoor dat alles op het scherm wordt
+            ververst.
+          </p>
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet3.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
           <h4 class="tut__subsubtitle">Toon de tekst van de huidige scène</h4>
-          <img class="tut__img" src="" alt="" />
+          <p class="tut__text">
+            De computer zoekt de tekst die bij de huidige scène hoort en plakt
+            deze in het tekstvak dat we eerder hebben aangemaakt.
+          </p>
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet4.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
           <h4 class="tut__subsubtitle">Maak voor elke optie een knop</h4>
-          <img class="tut__img" src="" alt="" />
+          <p class="tut__text">
+            We kijken welke keuzes er zijn en maken voor elke keuze een nieuwe
+            knop. Zo krijgt de speler een knop om op te drukken.
+          </p>
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet5.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
           <h4 class="tut__subsubtitle">Plaats de knoppen in de HTML</h4>
-          <img class="tut__img" src="" alt="" />
+          <p class="tut__text">
+            De knoppen die we net hebben gemaakt zetten we nu allemaal samen in
+            het juiste vak op onze website.
+          </p>
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet6.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
           <h4 class="tut__subsubtitle">
             Selecteert alle nieuw aangemaakte knoppen
           </h4>
-          <img class="tut__img" src="" alt="" />
+          <p class="tut__text">
+            Nu de knoppen op het scherm staan moeten we ze allemaal samen
+            vastpakken zodat we ze een taak kunnen geven.
+          </p>
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet7.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
@@ -405,12 +461,28 @@
             Voegt klikgedrag toe aan de knoppen om de navigeren naar een andere
             scene
           </h4>
-          <img class="tut__img" src="" alt="" />
+          <p class="tut__text">
+            We vertellen op welke knop hij moet letten. Als er op geklikt wordt
+            moet hij vertellen naar welke scène hij nu moet gaan.
+          </p>
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet8.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
           <h4 class="tut__subsubtitle">Start het spel bij de eerste scene</h4>
-          <img class="tut__img" src="" alt="" />
+          <p class="tut__text">
+            Zonder deze regel gebeurd er niks. Met dit vertellen we het spel dat
+            het bij de ingang moet beginnen.
+          </p>
+          <img
+            class="tut__img tut__img-maps"
+            src="../src/assets/snippet9.png"
+            alt="Screenshot of piece of code in Visual Studio Code."
+          />
         </div>
 
         <div class="tut__content">
