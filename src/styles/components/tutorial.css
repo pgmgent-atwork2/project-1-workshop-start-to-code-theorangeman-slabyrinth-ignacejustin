@@ -188,3 +188,17 @@
   background-color: var(--color-body-bg);
   transform: translate(0.5px);
 }
+
+.tut__img-layout {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.tut__img-layout .tut__img {
+  flex: 1;
+  width: 100%;
+  margin: 0;
+  object-fit: contain;
+  border: none;
+}

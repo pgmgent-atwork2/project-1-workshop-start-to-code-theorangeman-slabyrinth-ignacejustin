@@ -149,16 +149,38 @@
           <h2 class="tut__title">Mappenstructuur</h2>
           <p class="tut__text">
             Maak nu deze mappen en bestanden aan en dan is het voorbereidend
-            werk klaar! Let goed op dat de namen en de plaats van de mappen
-            precies kloppen. Als er één letter anders is, kan de computer het
-            niet vinden en werkt je game niet. Gebruik geen hoofdletters en geen
-            spaties in de namen van de mappen. Dat vindt code niet zo leuk!
+            werk klaar!<br />
+            Om een map aan te maken klik je op <b>"New folder"</b> naast je map
+            <b>"mijn_labyrint"</b> en om een bestand aan te maken klik je op
+            <b>"New file"</b>. Of je kan het doen door op je rechtermuisknop te
+            klikken.<br />
+            Let goed op dat de namen en de plaats van de mappen precies kloppen.
+            Als er één letter anders is, kan de computer het niet vinden en
+            werkt je game niet. Gebruik geen hoofdletters en geen spaties in de
+            namen van de mappen. Dat vindt code niet zo leuk!
           </p>
-          <img
-            class="tut__img tut__img-maps"
-            src="../src/assets/screenshot_mapstructuur.png"
-            alt="Screenshot van mappenstructuur."
-          />
+          <div class="tut__img-layout">
+            <img
+              class="tut__img tut__img-maps"
+              src="../src/assets/mappen1.png"
+              alt="Screenshot van mappenstructuur."
+            />
+            <img
+              class="tut__img tut__img-maps"
+              src="../src/assets/mappen2.png"
+              alt="Screenshot van mappenstructuur."
+            />
+            <img
+              class="tut__img tut__img-maps"
+              src="../src/assets/mappen3.png"
+              alt="Screenshot van mappenstructuur."
+            />
+            <img
+              class="tut__img tut__img-maps"
+              src="../src/assets/screenshot_mapstructuur.png"
+              alt="Screenshot van mappenstructuur."
+            />
+          </div>
         </div>
       </section>
 
@@ -193,7 +215,65 @@
                 <button class="copy__btn">Copy</button>
               </div>
               <div class="code-block__content">
-                <code class="code-block__snippet">Hier komt code...</code>
+                <pre><code class="code-block__snippet">&#x3C;!doctype html&#x3E;
+&#x3C;html lang=&#x22;en&#x22;&#x3E;
+  &#x3C;head&#x3E;
+    &#x3C;meta charset=&#x22;UTF-8&#x22; /&#x3E;
+    &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1.0&#x22; /&#x3E;
+    &#x3C;link rel=&#x22;preconnect&#x22; href=&#x22;https://fonts.googleapis.com&#x22; /&#x3E;
+    &#x3C;link rel=&#x22;preconnect&#x22; href=&#x22;https://fonts.gstatic.com&#x22; crossorigin /&#x3E;
+    &#x3C;link
+      href=&#x22;https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&#x26;family=Instrument+Serif:ital@0;1&#x26;display=swap&#x22;
+      rel=&#x22;stylesheet&#x22;
+    /&#x3E;
+    &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;../src/styles/main.css&#x22; /&#x3E;
+    &#x3C;title&#x3E;The orange man&#x27;s labyrinth&#x3C;/title&#x3E;
+  &#x3C;/head&#x3E;
+  &#x3C;body&#x3E;
+    &#x3C;header&#x3E;
+      &#x3C;nav class=&#x22;nav&#x22;&#x3E;
+        &#x3C;a class=&#x22;nav__item&#x22; href=&#x22;index.html&#x22;&#x3E;Home&#x3C;/a&#x3E;
+        &#x3C;a class=&#x22;nav__item&#x22; href=&#x22;html/game.html&#x22;&#x3E;Play Game&#x3C;/a&#x3E;
+        &#x3C;a class=&#x22;nav__item&#x22; href=&#x22;html/tutorial.html&#x22;&#x3E;Tutorial&#x3C;/a&#x3E;
+      &#x3C;/nav&#x3E;
+    &#x3C;/header&#x3E;
+    &#x3C;main&#x3E;
+      &#x3C;section class=&#x22;desktop__only&#x22;&#x3E;
+        &#x3C;h1 class=&#x22;main__title&#x22;&#x3E;The orange man&#x27;s labyrinth&#x3C;/h1&#x3E;
+        &#x3C;img
+          class=&#x22;main__img&#x22;
+          src=&#x22;src/assets/img_home.png&#x22;
+          alt=&#x22;The White House with a labyrinth&#x22;
+        /&#x3E;
+        &#x3C;a class=&#x22;main__link&#x22; href=&#x22;html/game.html&#x22;
+          &#x3E;&#x3C;span class=&#x22;link__text&#x22;&#x3E;Start game&#x3C;/span&#x3E;&#x3C;/a
+        &#x3E;
+        &#x3C;div class=&#x22;main__img-detail&#x22;&#x3E;&#x3C;/div&#x3E;
+      &#x3C;/section&#x3E;
+
+      &#x3C;section class=&#x22;mobile__only&#x22;&#x3E;
+        &#x3C;h1 class=&#x22;mobile__title&#x22;&#x3E;The orange man&#x27;s labyrinth&#x3C;/h1&#x3E;
+        &#x3C;img
+          class=&#x22;mobile__img&#x22;
+          src=&#x22;src/assets/wall.png&#x22;
+          alt=&#x22;The White House with a labyrinth&#x22;
+        /&#x3E;
+
+        &#x3C;section class=&#x22;btns__placement&#x22;&#x3E;
+          &#x3C;a class=&#x22;main__link&#x22; href=&#x22;html/game.html&#x22;
+            &#x3E;&#x3C;span class=&#x22;link__text&#x22;&#x3E;Start game&#x3C;/span&#x3E;&#x3C;/a
+          &#x3E;
+          &#x3C;a class=&#x22;main__link&#x22; href=&#x22;html/tutorial.html&#x22;
+            &#x3E;&#x3C;span class=&#x22;link__text&#x22;&#x3E;Tutorial&#x3C;/span&#x3E;&#x3C;/a
+          &#x3E;
+        &#x3C;/section&#x3E;
+
+        &#x3C;div class=&#x22;main__img-detail&#x22;&#x3E;&#x3C;/div&#x3E;
+      &#x3C;/section&#x3E;
+    &#x3C;/main&#x3E;
+    &#x3C;footer&#x3E;&#x3C;/footer&#x3E;
+  &#x3C;/body&#x3E;
+&#x3C;/html&#x3E;</code></pre>
               </div>
             </div>
           </div>
@@ -210,7 +290,43 @@
                 <button class="copy__btn">Copy</button>
               </div>
               <div class="code-block__content">
-                <code class="code-block__snippet">Hier komt code...</code>
+                <pre><code class="code-block__snippet">&#x3C;!doctype html&#x3E;
+&#x3C;html lang=&#x22;en&#x22;&#x3E;
+  &#x3C;head&#x3E;
+    &#x3C;meta charset=&#x22;UTF-8&#x22; /&#x3E;
+    &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1.0&#x22; /&#x3E;
+    &#x3C;link rel=&#x22;preconnect&#x22; href=&#x22;https://fonts.googleapis.com&#x22; /&#x3E;
+    &#x3C;link rel=&#x22;preconnect&#x22; href=&#x22;https://fonts.gstatic.com&#x22; crossorigin /&#x3E;
+    &#x3C;link
+      href=&#x22;https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&#x26;family=Instrument+Serif:ital@0;1&#x26;display=swap&#x22;
+      rel=&#x22;stylesheet&#x22;
+    /&#x3E;
+    &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;../src/styles/main.css&#x22; /&#x3E;
+    &#x3C;title&#x3E;The orange man&#x27;s labyrinth&#x3C;/title&#x3E;
+  &#x3C;/head&#x3E;
+  &#x3C;body&#x3E;
+    &#x3C;header&#x3E;
+      &#x3C;nav class=&#x22;nav&#x22;&#x3E;
+        &#x3C;a class=&#x22;nav__item&#x22; href=&#x22;../index.html&#x22;&#x3E;Home&#x3C;/a&#x3E;
+        &#x3C;a class=&#x22;nav__item&#x22; href=&#x22;../html/game.html&#x22;&#x3E;Play Game&#x3C;/a&#x3E;
+        &#x3C;a class=&#x22;nav__item&#x22; href=&#x22;../html/tutorial.html&#x22;&#x3E;Tutorial&#x3C;/a&#x3E;
+      &#x3C;/nav&#x3E;
+    &#x3C;/header&#x3E;
+    &#x3C;main&#x3E;
+      &#x3C;section class=&#x22;game&#x22;&#x3E;
+        &#x3C;div class=&#x22;game__wrapper&#x22;&#x3E;
+          &#x3C;div class=&#x22;border__content&#x22;&#x3E;
+            &#x3C;p class=&#x22;game__text&#x22; id=&#x22;text&#x22;&#x3E;&#x3C;/p&#x3E;
+            &#x3C;div class=&#x22;game__btn&#x22; id=&#x22;options&#x22;&#x3E;&#x3C;/div&#x3E;
+          &#x3C;/div&#x3E;
+          &#x3C;div class=&#x22;bg-game&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+      &#x3C;/section&#x3E;
+    &#x3C;/main&#x3E;
+    &#x3C;script src=&#x22;../src/scripts/game.js&#x22;&#x3E;&#x3C;/script&#x3E;
+  &#x3C;/body&#x3E;
+&#x3C;/html&#x3E;
+</code></pre>
               </div>
             </div>
           </div>
@@ -246,7 +362,12 @@
                 <button class="copy__btn">Copy</button>
               </div>
               <div class="code-block__content">
-                <code class="code-block__snippet">Hier komt code...</code>
+                <pre><code class="code-block__snippet">@import &#x22;base/reset.css&#x22;;
+@import &#x22;base/variables.css&#x22;;
+
+@import &#x22;components/home.css&#x22;;
+@import &#x22;components/game.css&#x22;;
+@import &#x22;components/tutorial.css&#x22;;</code></pre>
               </div>
             </div>
           </div>
@@ -267,7 +388,80 @@
               <button class="copy__btn">Copy</button>
             </div>
             <div class="code-block__content">
-              <code class="code-block__snippet">Hier komt code...</code>
+              <pre><code class="code-block__snippet">/*
+  Artevelde hogeschool CSS Reset v0.2
+  Adapted version from Josh&#x27;s Custom CSS Reset https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html {
+  height: 100%;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  min-height: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+</code></pre>
             </div>
           </div>
         </div>
@@ -277,7 +471,8 @@
             Ga naar de map <b class="tut__highlight">src</b>, dan naar
             <b class="tut__highlight">styles</b> en dan naar
             <b class="tut__highlight">base</b> en open het bestand
-            <b>variables.css</b>. Kopieer de code en plak ze erin.
+            <b class="tut__highlight">variables.css</b>. Kopieer de code en plak
+            ze erin.
           </p>
 
           <div class="code-block">
@@ -286,7 +481,26 @@
               <button class="copy__btn">Copy</button>
             </div>
             <div class="code-block__content">
-              <code class="code-block__snippet">Hier komt code...</code>
+              <pre><code class="code-block__snippet">:root {
+  --font-primary: &#x22;Instrument Serif&#x22;, Serif;
+  --font-secondary: &#x22;Instrument Sans&#x22;, Serif;
+
+  --color-primary: white;
+  --color-secondary: black;
+  --color-detail: red;
+  --color-nav: #0d112b;
+  --color-nav-darker: #050718;
+  --color-neutral: rgb(245, 245, 245);
+  --color-body-bg: #ebecf9;
+  --color-border: rgb(213, 213, 213);
+
+  --color-highlight: blue;
+  --color-highlight-variation1: rgb(255, 94, 0);
+  --color-highlight-variation2: rgb(9, 163, 50);
+  --color-highlight-variation3: rgb(106, 0, 255);
+
+  --shadow-border: 0 4px 15px rgba(0, 0, 0, 0.1);
+}</code></pre>
             </div>
           </div>
         </div>
@@ -306,7 +520,79 @@
               <button class="copy__btn">Copy</button>
             </div>
             <div class="code-block__content">
-              <code class="code-block__snippet">Hier komt code...</code>
+              <pre><code class="code-block__snippet">.game {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.game__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bg-game {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/img_game.png);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.game__text {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  z-index: 1;
+  text-shadow: 2px 2px 4px black;
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game__btn {
+  z-index: 1;
+  display: flex;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#options button {
+  font-family: var(--font-secondary);
+  border: 2px solid var(--color-detail);
+  border-radius: 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-detail);
+  padding: 1rem 2rem;
+  transition: 0.5s ease;
+}
+
+#options button:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+.border__content {
+  border: 2px solid var(--color-secondary);
+  border-radius: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+}
+</code></pre>
             </div>
           </div>
         </div>
@@ -326,7 +612,185 @@
               <button class="copy__btn">Copy</button>
             </div>
             <div class="code-block__content">
-              <code class="code-block__snippet">Hier komt code...</code>
+              <pre><code class="code-block__snippet">.nav {
+  padding: 1rem;
+  background-color: var(--color-nav);
+  box-shadow: var(--shadow-border);
+}
+
+.nav__item {
+  margin: 1rem;
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  position: relative;
+  display: inline-block;
+}
+
+.nav__item::after {
+  content: &#x22;&#x22;;
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: 0.8s ease;
+  background-color: var(--color-primary);
+}
+
+.nav__item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.desktop__only {
+  position: relative;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main__title {
+  position: absolute;
+  z-index: 2;
+  font-family: var(--font-primary);
+  font-size: 4rem;
+  color: var(--color-primary);
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px black;
+}
+
+.main__img {
+  object-fit: fill;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.main__img-detail {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  background-image: url(../../assets/orange_man-removebg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25rem;
+  aspect-ratio: 1/1;
+  pointer-events: none;
+}
+
+.main__link {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  border: 2px solid var(--color-detail);
+  border-radius: 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-detail);
+  padding: 1rem 2rem;
+  transition: 0.5s ease;
+}
+
+.main__link:hover {
+  color: var(--color-primary);
+  background-color: var(--color-detail);
+  border: 2px solid var(--color-primary);
+}
+
+.main__link:active {
+  transform: translate(-50%, -50%) scale(1.5);
+  transition: 0.5s ease;
+}
+
+.link__text {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+.mobile__only {
+  display: none;
+}
+
+@media (max-width: 402px) {
+  .mobile__only {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  .mobile__title {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+    z-index: 2;
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: var(--color-primary);
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .mobile__img {
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    object-fit: cover;
+    display: block;
+  }
+
+  .main__img-detail {
+    position: absolute;
+    width: 100%;
+    height: 40rem;
+    z-index: 3;
+    background-position: bottom right;
+    pointer-events: none;
+  }
+
+  .desktop__only {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .btns__placement {
+    position: absolute;
+    top: 22rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+  }
+
+  .btns__placement .main__link {
+    position: static;
+    transform: none;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 99;
+  }
+}</code></pre>
             </div>
           </div>
         </div>
@@ -496,9 +960,181 @@
               <button class="copy__btn">Copy</button>
             </div>
             <div class="code-block__content">
-              <code class="code-block__snippet">Hier komt code...</code>
+              <pre><code class="code-block__snippet">const $text = document.querySelector(&#x22;#text&#x22;);
+const $options = document.querySelector(&#x22;#options&#x22;);
+
+const gameData = {
+  entrance: {
+    text: &#x22;Je besluit het eiland te verkennen. In het zand zie je voetsporen van de vorige strijders die het beest probeerden te verslaan.&#x22;,
+    options: [
+      { text: &#x22;Ga verder&#x22;, next: &#x22;keyChoice&#x22; },
+      { text: &#x22;Keer terug&#x22;, next: &#x22;escapeEnding&#x22; },
+    ],
+  },
+
+  keyChoice: {
+    text: &#x22;Half begraven in het zand zie je iets glinsteren, het is een roestige sleutel.&#x22;,
+    options: [
+      { text: &#x22;Neem de sleutel mee&#x22;, next: &#x22;labyrinthEntrance_key&#x22; },
+      { text: &#x22;Laat de sleutel liggen&#x22;, next: &#x22;labyrinthEntrance_noKey&#x22; },
+    ],
+  },
+
+  labyrinthEntrance_key: {
+    text: &#x22;Voor je verschijnt de ingang van het labyrint. De stenen poort torent boven je uit. In de verte hoor je een diep gegrom, alsof iets binnenin je aanwezigheid al heeft opgemerkt. Wanneer je dichterbij komt, schuift de poort langzaam open.&#x22;,
+    options: [
+      { text: &#x22;Betreed het labyrint&#x22;, next: &#x22;hallway_key&#x22; },
+      { text: &#x22;Keer terug&#x22;, next: &#x22;escapeEnding&#x22; },
+    ],
+  },
+
+  labyrinthEntrance_noKey: {
+    text: &#x22;Voor je verschijnt de ingang van het labyrint. De stenen poort torent boven je uit. In de verte hoor je een diep gegrom, alsof iets binnenin je aanwezigheid al heeft opgemerkt. Wanneer je dichterbij komt, schuift de poort langzaam open.&#x22;,
+    options: [
+      { text: &#x22;Betreed het labyrint&#x22;, next: &#x22;hallway_noKey&#x22; },
+      { text: &#x22;Keer terug&#x22;, next: &#x22;escapeEnding&#x22; },
+    ],
+  },
+
+  hallway_key: {
+    text: &#x22;Je stapt het labyrint binnen. Achter je sluit de poort langzaam opnieuw. Overal liggen resten van gevallen strijders. De gang splitst zich in twee richtingen.&#x22;,
+    options: [
+      { text: &#x22;Ga naar de East Wing&#x22;, next: &#x22;eastWing_key&#x22; },
+      { text: &#x22;Ga naar de West Wing&#x22;, next: &#x22;westWing_key&#x22; },
+    ],
+  },
+
+  hallway_noKey: {
+    text: &#x22;Je stapt het labyrint binnen. Achter je sluit de poort langzaam opnieuw. Overal liggen resten van gevallen strijders. De gang splitst zich in twee richtingen.&#x22;,
+    options: [
+      { text: &#x22;Ga naar de East Wing&#x22;, next: &#x22;eastWing_noKey&#x22; },
+      { text: &#x22;Ga naar de West Wing&#x22;, next: &#x22;westWing_noKey&#x22; },
+    ],
+  },
+
+  westWing_key: {
+    text: &#x22;In de West Wing verschijnen de geesten van gevallen strijders. In stilte wijzen ze je de weg naar de Ballroom.&#x22;,
+    options: [
+      { text: &#x22;Volg de geesten&#x22;, next: &#x22;ballroom_key&#x22; },
+      { text: &#x22;Ga terug&#x22;, next: &#x22;hallway_key&#x22; },
+    ],
+  },
+
+  westWing_noKey: {
+    text: &#x22;In de West Wing verschijnen de geesten van gevallen strijders. In stilte wijzen ze je de weg naar de Ballroom.&#x22;,
+    options: [
+      { text: &#x22;Volg de geesten&#x22;, next: &#x22;ballroom_noKey&#x22; },
+      { text: &#x22;Ga terug&#x22;, next: &#x22;hallway_noKey&#x22; },
+    ],
+  },
+
+  eastWing_key: {
+    text: &#x22;Je betreedt de East Wing. Overal liggen overblijfselen van mensen die probeerden te ontsnappen. Voor je strekt zich een donkere gang uit.&#x22;,
+    options: [
+      { text: &#x22;Ga verder&#x22;, next: &#x22;lostEnding&#x22; },
+      { text: &#x22;Ga terug&#x22;, next: &#x22;hallway_key&#x22; },
+    ],
+  },
+
+  eastWing_noKey: {
+    text: &#x22;Je betreedt de East Wing. Overal liggen overblijfselen van mensen die probeerden te ontsnappen. Voor je strekt zich een donkere gang uit.&#x22;,
+    options: [
+      { text: &#x22;Ga verder&#x22;, next: &#x22;lostEnding&#x22; },
+      { text: &#x22;Ga terug&#x22;, next: &#x22;hallway_noKey&#x22; },
+    ],
+  },
+
+  ballroom_key: {
+    text: &#x22;Je bereikt de Ballroom. Met de sleutel open je de zware deuren. In het midden van de zaal ligt een zwaard.&#x22;,
+    options: [
+      { text: &#x22;Neem het zwaard mee&#x22;, next: &#x22;ovalOffice_sword&#x22; },
+      { text: &#x22;Laat het zwaard liggen&#x22;, next: &#x22;ovalOffice_noSword&#x22; },
+    ],
+  },
+
+  ballroom_noKey: {
+    text: &#x22;Je bereikt de Ballroom, maar zonder sleutel blijven de deuren gesloten. Er is geen weg vooruit.&#x22;,
+    options: [{ text: &#x22;Ga terug&#x22;, next: &#x22;lostEnding&#x22; }],
+  },
+
+  ovalOffice_sword: {
+    text: &#x22;Je betreedt de Oval Office. Voor je staat de Minotaurus met zijn prachtige gouden lokken. Hij is niet gediend met je bezoek en wordt woedend.&#x22;,
+    options: [
+      { text: &#x22;Val aan&#x22;, next: &#x22;goodEnding&#x22; },
+      { text: &#x22;Sluit een deal&#x22;, next: &#x22;dealEnding&#x22; },
+      { text: &#x22;Vlucht&#x22;, next: &#x22;lostEnding&#x22; },
+    ],
+  },
+
+  ovalOffice_noSword: {
+    text: &#x22;Je betreedt de Oval Office. Voor je staat de Minotaurusmet zijn prachtige gouden lokken. Hij is niet gediend met je bezoek en wordt woedend.&#x22;,
+    options: [
+      { text: &#x22;Val aan&#x22;, next: &#x22;badEnding&#x22; },
+      { text: &#x22;Sluit een deal&#x22;, next: &#x22;dealEnding&#x22; },
+      { text: &#x22;Vlucht&#x22;, next: &#x22;lostEnding&#x22; },
+    ],
+  },
+
+  escapeEnding: {
+    text: &#x22;Je keert terug en overleeft, maar je missie blijft onvoltooid.&#x22;,
+    options: [{ text: &#x22;Opnieuw spelen&#x22;, next: &#x22;entrance&#x22; }],
+  },
+
+  lostEnding: {
+    text: &#x22;Je raakt verdwaald in het labyrint en deelt het lot van de andere strijders.&#x22;,
+    options: [{ text: &#x22;Opnieuw spelen&#x22;, next: &#x22;entrance&#x22; }],
+  },
+
+  badEnding: {
+    text: &#x22;De Minotaurus verslaat je zonder moeite. Je eindigt zoals de anderen voor je. Net voor je sterft, buigt hij zich naar je toe en fluistert: &#x27;Anyone who thinks my story is anywhere near over is sadly mistaken.&#x27;&#x22;,
+    options: [{ text: &#x22;Opnieuw spelen&#x22;, next: &#x22;entrance&#x22; }],
+  },
+
+  goodEnding: {
+    text: &#x22;Je verslaat de Minotaurus en doorboort zijn hart. Het beest stort neer en blijft roerloos liggen. De goden belonen je voor je moed en doorzettingsvermogen. Je missie is voltooid.&#x22;,
+    options: [{ text: &#x22;Opnieuw spelen&#x22;, next: &#x22;entrance&#x22; }],
+  },
+
+  dealEnding: {
+    text: &#x22;Je streelt het ego van het beest en sluit een deal. Je leeft, maar als zijn dienaar.&#x22;,
+    options: [{ text: &#x22;Opnieuw spelen&#x22;, next: &#x22;entrance&#x22; }],
+  },
+};
+
+function startGame(sceneKey) {
+  const scene = gameData[sceneKey];
+
+  $text.innerHTML = scene.text;
+  let html = &#x22;&#x22;;
+
+  scene.options.forEach((option) =&#x3E; {
+    html += &#x60;&#x3C;button data-next=&#x22;${option.next}&#x22;&#x3E;${option.text}&#x3C;/button&#x3E;&#x60;;
+  });
+
+  $options.innerHTML = html;
+
+  const buttons = document.querySelectorAll(&#x22;button&#x22;);
+  buttons.forEach((button) =&#x3E; {
+    button.addEventListener(&#x22;click&#x22;, () =&#x3E; {
+      startGame(button.dataset.next);
+    });
+  });
+}
+
+startGame(&#x22;entrance&#x22;);
+</code></pre>
             </div>
           </div>
+        </div>
+        <div>
+          <h2 class="tut__title">
+            Nu zijn we klaar en kunnen we beginnen met het spel te spelen!
+          </h2>
+          <p class="tut__text">
+            Klik op <b class="tut__highlight">index.html</b> en klik rechtsonder
+            op <b class="tut__highlight">"Go live"</b>. Nu start jouw computer
+            zijn eigen server op en kan je het spel spelen!
+          </p>
         </div>
       </section>
     </main>
