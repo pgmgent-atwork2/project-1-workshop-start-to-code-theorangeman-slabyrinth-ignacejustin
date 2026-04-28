@@ -142,8 +142,10 @@
   display: block;
 }
 
-.tut__img-maps {
-  width: 40%;
+@media (min-width: 48rem) {
+  .tut__img-maps {
+    max-width: 50%;
+  }
 }
 
 .code-block {
@@ -196,8 +198,9 @@
 
 .tut__img-layout {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
   margin: 1.5rem 0;
+  gap: 1rem;
 }
 
 .tut__img-layout .tut__img {
