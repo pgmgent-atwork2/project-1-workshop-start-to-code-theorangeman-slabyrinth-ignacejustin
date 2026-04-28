@@ -142,10 +142,6 @@
   display: block;
 }
 
-.tut__img-maps {
-  width: 40%;
-}
-
 .code-block {
   background-color: var(--color-nav-darker);
   border-radius: 8px;
