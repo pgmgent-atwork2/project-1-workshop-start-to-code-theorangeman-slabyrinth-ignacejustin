@@ -147,6 +147,7 @@
     max-width: 50%;
   }
 }
+
 .code-block {
   background-color: var(--color-nav-darker);
   border-radius: 8px;
@@ -196,14 +197,26 @@
 }
 
 .tut__img-layout {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0; */
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
+@media (min-width: 48rem) {
+  .tut__img-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tut__img-layout .tut__img-maps {
+    max-width: 100%;
+  }
+}
+
 .tut__img-layout .tut__img {
-  flex: 1;
+  grid-area: span 1;
   width: 100%;
   margin: 0;
   object-fit: contain;
@@ -236,15 +249,5 @@
 @media (max-width: 768px) {
   .mobile__nav {
     display: block;
-  }
-  .tut__img-layout {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 48rem) {
-  .tut__img-maps {
-    max-width: 50%;
   }
 }
