@@ -142,10 +142,6 @@
   display: block;
 }
 
-.tut__img-maps {
-  width: 40%;
-}
-
 .code-block {
   background-color: var(--color-nav-darker);
   border-radius: 8px;
@@ -238,5 +234,11 @@
   .tut__img-layout {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 48rem) {
+  .tut__img-maps {
+    max-width: 50%;
   }
 }
