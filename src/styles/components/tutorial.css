@@ -235,4 +235,8 @@
   .mobile__nav {
     display: block;
   }
+  .tut__img-layout {
+    display: flex;
+    flex-direction: column;
+  }
 }
