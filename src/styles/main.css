@@ -4,3 +4,7 @@
 @import "components/home.css";
 @import "components/game.css";
 @import "components/tutorial.css";
+
+body {
+  min-height: 100vh;
+}

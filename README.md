@@ -13,3 +13,7 @@ Na een lange reis over zee bereik je eindelijk het eiland waar het labyrint zich
 ## Figma
 
 https://www.figma.com/board/B59RY29CoY7Oe6P8vrDgZI/Untitled?node-id=0-1&p=f&t=lzOXAOp0nQAF98EK-0
+
+## Github pages
+
+https://pgmgent-atwork2.github.io/project-1-workshop-start-to-code-theorangeman-slabyrinth-ignacejustin/
