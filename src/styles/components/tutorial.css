@@ -142,15 +142,11 @@
   display: block;
 }
 
-<<<<<<< HEAD
-=======
 @media (min-width: 48rem) {
   .tut__img-maps {
     max-width: 50%;
   }
 }
-
->>>>>>> 2bace9f (CSS fix and updated README)
 .code-block {
   background-color: var(--color-nav-darker);
   border-radius: 8px;
