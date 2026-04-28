@@ -1,11 +1,17 @@
 .game__wrapper {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 51.2px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+@media (min-width: 48rem) {
+  .game__wrapper {
+    height: calc(100vh - 100px);
+  }
 }
 
 .bg-game {
@@ -61,5 +67,6 @@
   border: 2px solid var(--color-secondary);
   border-radius: 1.5rem;
   background-color: rgba(0, 0, 0, 0.5);
+  margin-inline: 0.5rem;
   padding: 1rem 2rem;
 }
